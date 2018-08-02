@@ -54,7 +54,7 @@ N = total number of documents in the Corpus
 Nk = the number of documents in Corpus that containTk 
 
 Idfk = log(N / nk) 
-
+ 
 
 
 
