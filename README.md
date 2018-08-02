@@ -55,10 +55,18 @@ Nk = the number of documents in Corpus that containTk
 
 Idfk = log(N / nk) 
  
+## Deep Neural Network Model
+Using keras
 
+![model summary](https://user-images.githubusercontent.com/33830482/42348966-c8301910-80c8-11e8-9427-34fba3c0b84c.png)
 
+## Results
 
+# confusion matrix
 
+![confusion matrix](https://user-images.githubusercontent.com/33830482/42348966-c8301910-80c8-11e8-9427-34fba3c0b84c.png)
 
+# classification report
 
+![classification report](https://user-images.githubusercontent.com/33830482/42348966-c8301910-80c8-11e8-9427-34fba3c0b84c.png)
 
