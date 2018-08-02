@@ -12,7 +12,7 @@ Since it was private competition, we are using the train data only and then trai
 All rights are own by YELP reviews dataset.
 Please refer acknowledgement of the kaggle page to more details on restrictions.
 
-CLeaning/pre-processing:
+## CLeaning/pre-processing:
 
 1 Removed Punctuations (Python String Lib)
 
@@ -26,12 +26,19 @@ CLeaning/pre-processing:
 
 6 Stemming (NLTK.stem, SnowballStemmer)
 
-Vectorization:
+## Vectorization:
 
-WORD2VEC - imported from gensim.models library 
+### WORD2VEC
+Imported from gensim.models library 
 Word2vec is a two layer shallow neural network which produces a low- dimensional vector representation from a corpus of text,  which preserves the contextual similarity of words. So word embeddings turn text into numbers.
 
-TFIDF- imported from sklearn.feature_extraction.text library
+CBOW means continuous bag of words. SG means Skip Gram. With a corpus, CBOW model predicts the current word from a window of surrounding context words, while Skip-gram model predicts surrounding context words given the current word.
+
+For example, let's say we have the following sentence: "I love dogs". CBOW model tries to predict the word "love" when given "I", "dogs" as inputs, on the other hand, Skip-gram model tries to predict "I", "dogs" when given the word "love" as input.
+
+
+### TFIDF 
+Imported from sklearn.feature_extraction.text library
 If the document is very large, we have to take into account specific terms that appear in a very few documents, as they are more informative. IDF provides high values for rare words and low values for common words.
 
 Wik = Tfik * log(N / nk)
