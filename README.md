@@ -58,15 +58,15 @@ Idfk = log(N / nk)
 ## Deep Neural Network Model
 Using keras
 
-![model summary](https://user-images.githubusercontent.com/33830482/42348966-c8301910-80c8-11e8-9427-34fba3c0b84c.png)
+![Model summary](https://user-images.githubusercontent.com/33830482/43615284-873d18a0-96d4-11e8-8f8a-1a18943d5bc6.png)
 
 ## Results
 
 # confusion matrix
 
-![confusion matrix](https://user-images.githubusercontent.com/33830482/42348966-c8301910-80c8-11e8-9427-34fba3c0b84c.png)
+![Confusion matrix](https://user-images.githubusercontent.com/33830482/43615309-9e01aa7e-96d4-11e8-91d0-293597b9ef17.png)
 
 # classification report
 
-![classification report](https://user-images.githubusercontent.com/33830482/42348966-c8301910-80c8-11e8-9427-34fba3c0b84c.png)
+![Classification report](https://user-images.githubusercontent.com/33830482/43615314-aa2d050a-96d4-11e8-8110-6f4dd3a7d6f9.png)
 
